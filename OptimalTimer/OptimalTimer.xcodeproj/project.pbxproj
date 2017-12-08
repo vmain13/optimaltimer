@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCAD6A011FDB233300D46FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD6A001FDB233300D46FEC /* AppDelegate.swift */; };
+		FCAD6A031FDB233300D46FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD6A021FDB233300D46FEC /* ViewController.swift */; };
+		FCAD6A061FDB233300D46FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAD6A041FDB233300D46FEC /* Main.storyboard */; };
+		FCAD6A081FDB233300D46FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAD6A071FDB233300D46FEC /* Assets.xcassets */; };
+		FCAD6A0B1FDB233300D46FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAD6A091FDB233300D46FEC /* LaunchScreen.storyboard */; };
+		FCAD6A161FDB233400D46FEC /* OptimalTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD6A151FDB233400D46FEC /* OptimalTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCAD6A121FDB233400D46FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCAD69F51FDB233300D46FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAD69FC1FDB233300D46FEC;
+			remoteInfo = OptimalTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCAD69FD1FDB233300D46FEC /* OptimalTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimalTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAD6A001FDB233300D46FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCAD6A021FDB233300D46FEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCAD6A051FDB233300D46FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCAD6A071FDB233300D46FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCAD6A0A1FDB233300D46FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCAD6A0C1FDB233300D46FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAD6A111FDB233400D46FEC /* OptimalTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimalTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAD6A151FDB233400D46FEC /* OptimalTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimalTimerTests.swift; sourceTree = "<group>"; };
+		FCAD6A171FDB233400D46FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCAD69FA1FDB233300D46FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD6A0E1FDB233400D46FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCAD69F41FDB233300D46FEC = {
+			isa = PBXGroup;
+			children = (
+				FCAD69FF1FDB233300D46FEC /* OptimalTimer */,
+				FCAD6A141FDB233400D46FEC /* OptimalTimerTests */,
+				FCAD69FE1FDB233300D46FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCAD69FE1FDB233300D46FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD69FD1FDB233300D46FEC /* OptimalTimer.app */,
+				FCAD6A111FDB233400D46FEC /* OptimalTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCAD69FF1FDB233300D46FEC /* OptimalTimer */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD6A001FDB233300D46FEC /* AppDelegate.swift */,
+				FCAD6A021FDB233300D46FEC /* ViewController.swift */,
+				FCAD6A041FDB233300D46FEC /* Main.storyboard */,
+				FCAD6A071FDB233300D46FEC /* Assets.xcassets */,
+				FCAD6A091FDB233300D46FEC /* LaunchScreen.storyboard */,
+				FCAD6A0C1FDB233300D46FEC /* Info.plist */,
+			);
+			path = OptimalTimer;
+			sourceTree = "<group>";
+		};
+		FCAD6A141FDB233400D46FEC /* OptimalTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD6A151FDB233400D46FEC /* OptimalTimerTests.swift */,
+				FCAD6A171FDB233400D46FEC /* Info.plist */,
+			);
+			path = OptimalTimerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCAD69FC1FDB233300D46FEC /* OptimalTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAD6A1A1FDB233400D46FEC /* Build configuration list for PBXNativeTarget "OptimalTimer" */;
+			buildPhases = (
+				FCAD69F91FDB233300D46FEC /* Sources */,
+				FCAD69FA1FDB233300D46FEC /* Frameworks */,
+				FCAD69FB1FDB233300D46FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptimalTimer;
+			productName = OptimalTimer;
+			productReference = FCAD69FD1FDB233300D46FEC /* OptimalTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCAD6A101FDB233400D46FEC /* OptimalTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAD6A1D1FDB233400D46FEC /* Build configuration list for PBXNativeTarget "OptimalTimerTests" */;
+			buildPhases = (
+				FCAD6A0D1FDB233400D46FEC /* Sources */,
+				FCAD6A0E1FDB233400D46FEC /* Frameworks */,
+				FCAD6A0F1FDB233400D46FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAD6A131FDB233400D46FEC /* PBXTargetDependency */,
+			);
+			name = OptimalTimerTests;
+			productName = OptimalTimerTests;
+			productReference = FCAD6A111FDB233400D46FEC /* OptimalTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCAD69F51FDB233300D46FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Beatio LLC.";
+				TargetAttributes = {
+					FCAD69FC1FDB233300D46FEC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FCAD6A101FDB233400D46FEC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCAD69FC1FDB233300D46FEC;
+					};
+				};
+			};
+			buildConfigurationList = FCAD69F81FDB233300D46FEC /* Build configuration list for PBXProject "OptimalTimer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCAD69F41FDB233300D46FEC;
+			productRefGroup = FCAD69FE1FDB233300D46FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCAD69FC1FDB233300D46FEC /* OptimalTimer */,
+				FCAD6A101FDB233400D46FEC /* OptimalTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCAD69FB1FDB233300D46FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD6A0B1FDB233300D46FEC /* LaunchScreen.storyboard in Resources */,
+				FCAD6A081FDB233300D46FEC /* Assets.xcassets in Resources */,
+				FCAD6A061FDB233300D46FEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD6A0F1FDB233400D46FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCAD69F91FDB233300D46FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD6A031FDB233300D46FEC /* ViewController.swift in Sources */,
+				FCAD6A011FDB233300D46FEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD6A0D1FDB233400D46FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD6A161FDB233400D46FEC /* OptimalTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCAD6A131FDB233400D46FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAD69FC1FDB233300D46FEC /* OptimalTimer */;
+			targetProxy = FCAD6A121FDB233400D46FEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCAD6A041FDB233300D46FEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAD6A051FDB233300D46FEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCAD6A091FDB233300D46FEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAD6A0A1FDB233300D46FEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCAD6A181FDB233400D46FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCAD6A191FDB233400D46FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCAD6A1B1FDB233400D46FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptimalTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beatio.OptimalTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCAD6A1C1FDB233400D46FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptimalTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beatio.OptimalTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCAD6A1E1FDB233400D46FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptimalTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beatio.OptimalTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimalTimer.app/OptimalTimer";
+			};
+			name = Debug;
+		};
+		FCAD6A1F1FDB233400D46FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptimalTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beatio.OptimalTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimalTimer.app/OptimalTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCAD69F81FDB233300D46FEC /* Build configuration list for PBXProject "OptimalTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAD6A181FDB233400D46FEC /* Debug */,
+				FCAD6A191FDB233400D46FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAD6A1A1FDB233400D46FEC /* Build configuration list for PBXNativeTarget "OptimalTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAD6A1B1FDB233400D46FEC /* Debug */,
+				FCAD6A1C1FDB233400D46FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAD6A1D1FDB233400D46FEC /* Build configuration list for PBXNativeTarget "OptimalTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAD6A1E1FDB233400D46FEC /* Debug */,
+				FCAD6A1F1FDB233400D46FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCAD69F51FDB233300D46FEC /* Project object */;
+}
